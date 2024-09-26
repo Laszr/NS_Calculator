@@ -1,0 +1,54 @@
+.main{
+    -fx-background-color:transparent;
+}
+.card{
+    -fx-background-color:linear-gradient(to bottom left, #fc00ff, #00dbde);
+    -fx-background-radius:55px;
+}
+
+.keyresult{
+    -fx-background-color:linear-gradient(to bottom left, RED, BLUE);
+    -fx-background-radius:20px;
+    -fx-text-fill:#fff;
+    -fx-font-size:55px;
+    -fx-padding:20px 15px 5px 15px;
+}
+.keypad{
+    -fx-background-color: rgba(0, 130, 133, 0.22);
+    -fx-background-radius:10px;
+    -fx-text-fill:#fff;
+    -fx-font-size:30px;
+    -fx-cursor:hand;
+    -fx-font-family:"Comic Sans MS";
+    -fx-border-width: 2px;
+    -fx-border-color: red;
+    -fx-border-radius: 100px;
+}
+.operations{
+    -fx-background-color:linear-gradient(to bottom left, PURPLE, ORANGE);
+    -fx-font-size:30px;
+    -fx-cursor:hand;
+    -fx-font-family:"Comic Sans MS";
+    -fx-border-width: 2px;
+    -fx-border-color: blue;
+    -fx-border-radius: 100px;
+}
+.uniqueButtons{
+    -fx-background-color:linear-gradient(to bottom left, GREEN, PINK);
+    -fx-font-size:15px;
+    -fx-cursor:hand;
+    -fx-border-width: 2px;
+    -fx-border-color: purple;
+    -fx-border-radius: 100px;
+}
+
+.uniqueButtons:hover{
+    -fx-background-color:linear-gradient(to bottom left, sandybrown, teal);
+}
+.operations:hover{
+    -fx-background-color: linear-gradient(to bottom left, tomato, black);
+}
+
+.keypad:hover{
+    -fx-background-color:rgba(140, 0, 143, 0.30);
+}
